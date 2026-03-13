@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="ambient"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Portfolio<span></span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Satyam</h1>
+          <h2>Full Stack Developer</h2>
+          <p class="intro">
+            "Hello, I am Satyam. I am a Web Developer with a passion for building user-friendly and responsive websites. I am proficient in HTML, CSS, and JavaScript.
+             I enjoy solving coding challenges and am eager to contribute my skills to innovative web projects."
+          </p>
+          <p class="typing">
+            <span>Specialized in</span>
+            <span id="typed" class="typed"></span>
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn ghost" href="Satyam Resume.pdf" download>Download CV</a>
+          </div>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/satyam-mishra-0a56a7330/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Apnaplatform" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/pndt_satyam.01/?hl=en" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <div class="glass-card">
+            <img src="Satyam.png" alt="Profile photo" />
+          </div>
+          <div class="badge">Available for freelance</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <h3>About Me</h3>
+          <p>A little more about my journey and goals.</p>
+        </div>
+        <div class="about-grid reveal">
+          <button class="about-card about-toggle" type="button" aria-expanded="false">
+            <h4>Introduction</h4>
+            <p>
+              I am a full stack developer focused on creating responsive, user-centric applications. I value
+              performance, accessibility, and visual polish in every interface I design.
+            </p>
+          </button>
+          <button class="about-card about-toggle" type="button" aria-expanded="false">
+            <h4>Education</h4>
+            <p>
+              BCA in 2026. Certified in modern JavaBootcamp,& SQL Bootcamp & React Bootcamp and UX
+              design best practices.
+            </p>
+          </button>
+          <button class="about-card about-toggle" type="button" aria-expanded="false">
+            <h4>Career Goals</h4>
+            <p>
+              My goal is to lead impactful product teams, build scalable platforms, and mentor developers to
+              craft delightful experiences.
+            </p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <h3>Skills</h3>
+          <p>Tools and technologies I use to build modern products.</p>
+        </div>
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <div class="skill-header">
+              <span><i class="fa-brands fa-html5"></i> HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar"><span style="width:95%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-bar"><span style="width:92%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar"><span style="width:90%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span><i class="fa-solid fa-database"></i> SQL</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar"><span style="width:85%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span><i class="fa-brands fa-react"></i> React</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar"><span style="width:88%"></span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span>82%</span>
+            </div>
+            <div class="skill-bar"><span style="width:82%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <h3>Projects</h3>
+          <p>Highlighted work that blends creativity with strong engineering.</p>
+        </div>
+        <div class="projects-grid reveal">
+          <article class="project-card">
+            <img src="Purple and White Modern Computer Service & Repair Logo.png" alt="Project one preview" />
+            <div class="project-body">
+              <h4>Quiz_CS Platform</h4>
+              <p>Quiz_CS makes learning interactive and fun. Designed for students and educators, our platform offers customizable flashcards, game-show style quizzes, and real-time progress tracking to boost memory retention and exam preparation."</p>
+              <div class="project-links">
+                <a class="btn small" href="https://apnaplatform.github.io/Quiz_CS/">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="Colorful Abstract Financial Investment Free Logo.png" alt="Project two preview" />
+            <div class="project-body">
+              <h4>Saksham Microfienance Website</h4>
+              <p>A microfinance platform is a specialized digital ecosystem that connects underserved individuals, small entrepreneurs, and low-income households with essential financial services, such as microloans, savings accounts, and insurance.
+                  facilitate financial inclusion by enabling remote, paperless, and fast access to capital.</p>
+              <div class="project-links">
+                <a class="btn small" href="https://apnaplatform.github.io/Saksham-MicroFinance-Pvt-Ltd/">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="Minimalist Portfolio 2025 Logo.png" alt="Project three preview" />
+            <div class="project-body">
+              <h4>PortFolio Page</h4>
+              <p>A portfolio description serves as your "About Me" page, designed to highlight your skills, experience, and professional identity to potential employers or clients. </p>
+              <div class="project-links">
+                <a class="btn small" href="https://github.com">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <h3>Resume</h3>
+          <p>Download the latest version of my resume for a detailed overview.</p>
+        </div>
+        <div class="resume-card reveal">
+          <div>
+            <h4>Professional Resume</h4>
+            <p>Includes work experience and recent projects.</p>
+          </div>
+          <a class="btn primary" href="Satyam Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <h3>Contact</h3>
+          <p>Ready to collaborate? Send a message and I will respond within 24 hours.</p>
+        </div>
+        <div class="contact-grid reveal">
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              Phone
+              <input type="text" placeholder="+91" required />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Message
+              <textarea rows="5" placeholder="Tell me about your project" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h5>Phone</h5>
+                <p>+91 8954916022</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h5>Email</h5>
+                <p>satyammishra1725@gmail.com</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h5>Location</h5>
+                <p>Bareilly, Uttar Pradesh</p>
+              </div>
+            </div>
+            <div class="social-row">
+              <a href="https://www.linkedin.com/in/satyam-mishra-0a56a7330/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Apnaplatform" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/pndt_satyam.01/?hl=en" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Satyam</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/satyam-mishra-0a56a7330/">LinkedIn</a>
+        <a href="https://github.com/Apnaplatform">GitHub</a>
+        <a href="https://www.instagram.com/pndt_satyam.01/?hl=en">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
